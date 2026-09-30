@@ -71,6 +71,11 @@ class WebViewHost(context: Context, private val onBatch: (Batch) -> Unit) {
         return seq
     }
 
+    /** Runs a script in the bundle; used by the bench. */
+    fun runScript(js: String) {
+        webView.evaluateJavascript(js, null)
+    }
+
     fun destroy() {
         webView.destroy()
     }

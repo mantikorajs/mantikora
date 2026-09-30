@@ -40,6 +40,11 @@ final class WebViewHost {
         return eventSeq
     }
 
+    /// Runs a script in the bundle; used by the bench.
+    func runScript(_ js: String) {
+        webView.evaluateJavaScript(js, completionHandler: nil)
+    }
+
     fileprivate func receive(_ body: Any) {
         guard let json = body as? String else { return fail("message body is not a string") }
         let batch: Batch

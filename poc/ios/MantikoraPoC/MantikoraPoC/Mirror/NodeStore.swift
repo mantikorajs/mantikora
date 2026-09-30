@@ -54,6 +54,11 @@ final class NodeStore {
         acknowledgedEvent = batch.evt
     }
 
+    /// First node of a type; used by the bench to find the counter's button.
+    func find(_ type: String) -> MirrorNode? {
+        nodes.values.first { $0.type == type }
+    }
+
     func node(_ id: Int) throws -> MirrorNode {
         guard let node = nodes[id] else { throw ProtocolError("unknown id \(id)") }
         return node

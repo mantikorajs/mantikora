@@ -19,6 +19,7 @@
 		BAB870FA306D1D9C00797B5E /* WebViewHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870F5306D1D9C00797B5E /* WebViewHost.swift */; };
 		BAB870FB306D1D9C00797B5E /* Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870F6306D1D9C00797B5E /* Wire.swift */; };
 		BAB870FD306D1DCE00797B5E /* web in Resources */ = {isa = PBXBuildFile; fileRef = BAB870FC306D1DCE00797B5E /* web */; };
+		BAB870FF306D49F900797B5E /* Bench in Resources */ = {isa = PBXBuildFile; fileRef = BAB870FE306D49F900797B5E /* Bench */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BAB870F5306D1D9C00797B5E /* WebViewHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewHost.swift; sourceTree = "<group>"; };
 		BAB870F6306D1D9C00797B5E /* Wire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wire.swift; sourceTree = "<group>"; };
 		BAB870FC306D1DCE00797B5E /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
+		BAB870FE306D49F900797B5E /* Bench */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bench; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		BAB870C7306D1BBF00797B5E /* MantikoraPoC */ = {
 			isa = PBXGroup;
 			children = (
+				BAB870FE306D49F900797B5E /* Bench */,
 				BAB870FC306D1DCE00797B5E /* web */,
 				BAB870F7306D1D9C00797B5E /* Host */,
 				BAB870F4306D1D9C00797B5E /* Mirror */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAB870FD306D1DCE00797B5E /* web in Resources */,
+				BAB870FF306D49F900797B5E /* Bench in Resources */,
 				BAB870D0306D1BC200797B5E /* Preview Assets.xcassets in Resources */,
 				BAB870CD306D1BC200797B5E /* Assets.xcassets in Resources */,
 			);
@@ -458,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MantikoraPoC/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F45MDLYTJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -486,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MantikoraPoC/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F45MDLYTJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

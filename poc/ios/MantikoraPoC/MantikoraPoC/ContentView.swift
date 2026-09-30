@@ -6,11 +6,13 @@ import WebKit
 final class AppModel: Events {
     let store: NodeStore
     private var host: WebViewHost!
+    private(set) var bench: Bench!
     private var started = false
 
     init() {
         store = NodeStore()
         host = WebViewHost { [weak self] batch in self?.apply(batch) }
+        bench = Bench(host: host, store: store)
     }
 
     var webView: WKWebView { host.webView }
@@ -29,7 +31,7 @@ final class AppModel: Events {
 
     private func apply(_ batch: Batch) {
         do {
-            try store.apply(batch)
+            try bench.apply(batch)
         } catch {
             #if DEBUG
             fatalError("Mantikora: \(error)")
@@ -45,6 +47,13 @@ struct ContentView: View {
     let model: AppModel
 
     var body: some View {
+        VStack(spacing: 0) {
+            app
+            BenchPanel(bench: model.bench)
+        }
+    }
+
+    private var app: some View {
         ZStack(alignment: .topLeading) {
             // The WebView stays in the window and visible (1×1 pt), so WebKit does not
             // suspend its timers as it would for an offscreen page.

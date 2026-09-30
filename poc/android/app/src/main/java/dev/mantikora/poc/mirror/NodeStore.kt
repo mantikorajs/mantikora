@@ -59,6 +59,9 @@ class NodeStore {
 
     fun node(id: Int): MirrorNode = nodes[id] ?: throw ProtocolException("unknown id $id")
 
+    /** First node of a type; used by the bench to find the counter's button. */
+    fun find(type: String): MirrorNode? = nodes.values.firstOrNull { it.type == type }
+
     private fun applyOp(op: Op) {
         when (op) {
             is Op.Create -> {
