@@ -1,0 +1,6 @@
+<mk-column spacing="12" padding="16">
+  <mk-text variant="title">Clicked {{ count() }} times</mk-text>
+  <mk-button (tap)="increment()">Increment</mk-button>
+  <mk-text-field label="Name" [value]="name()" (change)="name.set($any($event))" />
+  <mk-text>Hello {{ name() }}</mk-text>
+</mk-column>
