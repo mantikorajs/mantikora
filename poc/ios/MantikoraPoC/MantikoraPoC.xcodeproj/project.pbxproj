@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAB870C9306D1BBF00797B5E /* MantikoraPoCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870C8306D1BBF00797B5E /* MantikoraPoCApp.swift */; };
+		BAB870CB306D1BBF00797B5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870CA306D1BBF00797B5E /* ContentView.swift */; };
+		BAB870CD306D1BC200797B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB870CC306D1BC200797B5E /* Assets.xcassets */; };
+		BAB870D0306D1BC200797B5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB870CF306D1BC200797B5E /* Preview Assets.xcassets */; };
+		BAB870DA306D1BC200797B5E /* MantikoraPoCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870D9306D1BC200797B5E /* MantikoraPoCTests.swift */; };
+		BAB870E4306D1BC200797B5E /* MantikoraPoCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870E3306D1BC200797B5E /* MantikoraPoCUITests.swift */; };
+		BAB870E6306D1BC200797B5E /* MantikoraPoCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870E5306D1BC200797B5E /* MantikoraPoCUITestsLaunchTests.swift */; };
+		BAB870F8306D1D9C00797B5E /* NodeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870F2306D1D9C00797B5E /* NodeStore.swift */; };
+		BAB870F9306D1D9C00797B5E /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870F3306D1D9C00797B5E /* NodeView.swift */; };
+		BAB870FA306D1D9C00797B5E /* WebViewHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870F5306D1D9C00797B5E /* WebViewHost.swift */; };
+		BAB870FB306D1D9C00797B5E /* Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB870F6306D1D9C00797B5E /* Wire.swift */; };
+		BAB870FD306D1DCE00797B5E /* web in Resources */ = {isa = PBXBuildFile; fileRef = BAB870FC306D1DCE00797B5E /* web */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAB870D6306D1BC200797B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB870BD306D1BBF00797B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAB870C4306D1BBF00797B5E;
+			remoteInfo = MantikoraPoC;
+		};
+		BAB870E0306D1BC200797B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB870BD306D1BBF00797B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAB870C4306D1BBF00797B5E;
+			remoteInfo = MantikoraPoC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAB870C5306D1BBF00797B5E /* MantikoraPoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MantikoraPoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB870C8306D1BBF00797B5E /* MantikoraPoCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantikoraPoCApp.swift; sourceTree = "<group>"; };
+		BAB870CA306D1BBF00797B5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAB870CC306D1BC200797B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB870CF306D1BC200797B5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAB870D5306D1BC200797B5E /* MantikoraPoCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantikoraPoCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB870D9306D1BC200797B5E /* MantikoraPoCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantikoraPoCTests.swift; sourceTree = "<group>"; };
+		BAB870DF306D1BC200797B5E /* MantikoraPoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantikoraPoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB870E3306D1BC200797B5E /* MantikoraPoCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantikoraPoCUITests.swift; sourceTree = "<group>"; };
+		BAB870E5306D1BC200797B5E /* MantikoraPoCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantikoraPoCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAB870F2306D1D9C00797B5E /* NodeStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeStore.swift; sourceTree = "<group>"; };
+		BAB870F3306D1D9C00797B5E /* NodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
+		BAB870F5306D1D9C00797B5E /* WebViewHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewHost.swift; sourceTree = "<group>"; };
+		BAB870F6306D1D9C00797B5E /* Wire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wire.swift; sourceTree = "<group>"; };
+		BAB870FC306D1DCE00797B5E /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB870C2306D1BBF00797B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB870D2306D1BC200797B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB870DC306D1BC200797B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB870BC306D1BBF00797B5E = {
+			isa = PBXGroup;
+			children = (
+				BAB870C7306D1BBF00797B5E /* MantikoraPoC */,
+				BAB870D8306D1BC200797B5E /* MantikoraPoCTests */,
+				BAB870E2306D1BC200797B5E /* MantikoraPoCUITests */,
+				BAB870C6306D1BBF00797B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB870C6306D1BBF00797B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB870C5306D1BBF00797B5E /* MantikoraPoC.app */,
+				BAB870D5306D1BC200797B5E /* MantikoraPoCTests.xctest */,
+				BAB870DF306D1BC200797B5E /* MantikoraPoCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB870C7306D1BBF00797B5E /* MantikoraPoC */ = {
+			isa = PBXGroup;
+			children = (
+				BAB870FC306D1DCE00797B5E /* web */,
+				BAB870F7306D1D9C00797B5E /* Host */,
+				BAB870F4306D1D9C00797B5E /* Mirror */,
+				BAB870C8306D1BBF00797B5E /* MantikoraPoCApp.swift */,
+				BAB870CA306D1BBF00797B5E /* ContentView.swift */,
+				BAB870CC306D1BC200797B5E /* Assets.xcassets */,
+				BAB870CE306D1BC200797B5E /* Preview Content */,
+			);
+			path = MantikoraPoC;
+			sourceTree = "<group>";
+		};
+		BAB870CE306D1BC200797B5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAB870CF306D1BC200797B5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAB870D8306D1BC200797B5E /* MantikoraPoCTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAB870D9306D1BC200797B5E /* MantikoraPoCTests.swift */,
+			);
+			path = MantikoraPoCTests;
+			sourceTree = "<group>";
+		};
+		BAB870E2306D1BC200797B5E /* MantikoraPoCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAB870E3306D1BC200797B5E /* MantikoraPoCUITests.swift */,
+				BAB870E5306D1BC200797B5E /* MantikoraPoCUITestsLaunchTests.swift */,
+			);
+			path = MantikoraPoCUITests;
+			sourceTree = "<group>";
+		};
+		BAB870F4306D1D9C00797B5E /* Mirror */ = {
+			isa = PBXGroup;
+			children = (
+				BAB870F2306D1D9C00797B5E /* NodeStore.swift */,
+				BAB870F3306D1D9C00797B5E /* NodeView.swift */,
+			);
+			path = Mirror;
+			sourceTree = "<group>";
+		};
+		BAB870F7306D1D9C00797B5E /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				BAB870F5306D1D9C00797B5E /* WebViewHost.swift */,
+				BAB870F6306D1D9C00797B5E /* Wire.swift */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB870C4306D1BBF00797B5E /* MantikoraPoC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB870E9306D1BC200797B5E /* Build configuration list for PBXNativeTarget "MantikoraPoC" */;
+			buildPhases = (
+				BAB870C1306D1BBF00797B5E /* Sources */,
+				BAB870C2306D1BBF00797B5E /* Frameworks */,
+				BAB870C3306D1BBF00797B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MantikoraPoC;
+			productName = MantikoraPoC;
+			productReference = BAB870C5306D1BBF00797B5E /* MantikoraPoC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAB870D4306D1BC200797B5E /* MantikoraPoCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB870EC306D1BC200797B5E /* Build configuration list for PBXNativeTarget "MantikoraPoCTests" */;
+			buildPhases = (
+				BAB870D1306D1BC200797B5E /* Sources */,
+				BAB870D2306D1BC200797B5E /* Frameworks */,
+				BAB870D3306D1BC200797B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAB870D7306D1BC200797B5E /* PBXTargetDependency */,
+			);
+			name = MantikoraPoCTests;
+			productName = MantikoraPoCTests;
+			productReference = BAB870D5306D1BC200797B5E /* MantikoraPoCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAB870DE306D1BC200797B5E /* MantikoraPoCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB870EF306D1BC200797B5E /* Build configuration list for PBXNativeTarget "MantikoraPoCUITests" */;
+			buildPhases = (
+				BAB870DB306D1BC200797B5E /* Sources */,
+				BAB870DC306D1BC200797B5E /* Frameworks */,
+				BAB870DD306D1BC200797B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAB870E1306D1BC200797B5E /* PBXTargetDependency */,
+			);
+			name = MantikoraPoCUITests;
+			productName = MantikoraPoCUITests;
+			productReference = BAB870DF306D1BC200797B5E /* MantikoraPoCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB870BD306D1BBF00797B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BAB870C4306D1BBF00797B5E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BAB870D4306D1BC200797B5E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BAB870C4306D1BBF00797B5E;
+					};
+					BAB870DE306D1BC200797B5E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BAB870C4306D1BBF00797B5E;
+					};
+				};
+			};
+			buildConfigurationList = BAB870C0306D1BBF00797B5E /* Build configuration list for PBXProject "MantikoraPoC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB870BC306D1BBF00797B5E;
+			productRefGroup = BAB870C6306D1BBF00797B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB870C4306D1BBF00797B5E /* MantikoraPoC */,
+				BAB870D4306D1BC200797B5E /* MantikoraPoCTests */,
+				BAB870DE306D1BC200797B5E /* MantikoraPoCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB870C3306D1BBF00797B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB870FD306D1DCE00797B5E /* web in Resources */,
+				BAB870D0306D1BC200797B5E /* Preview Assets.xcassets in Resources */,
+				BAB870CD306D1BC200797B5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB870D3306D1BC200797B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB870DD306D1BC200797B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB870C1306D1BBF00797B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB870CB306D1BBF00797B5E /* ContentView.swift in Sources */,
+				BAB870F8306D1D9C00797B5E /* NodeStore.swift in Sources */,
+				BAB870FB306D1D9C00797B5E /* Wire.swift in Sources */,
+				BAB870F9306D1D9C00797B5E /* NodeView.swift in Sources */,
+				BAB870C9306D1BBF00797B5E /* MantikoraPoCApp.swift in Sources */,
+				BAB870FA306D1D9C00797B5E /* WebViewHost.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB870D1306D1BC200797B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB870DA306D1BC200797B5E /* MantikoraPoCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB870DB306D1BC200797B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB870E6306D1BC200797B5E /* MantikoraPoCUITestsLaunchTests.swift in Sources */,
+				BAB870E4306D1BC200797B5E /* MantikoraPoCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAB870D7306D1BC200797B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAB870C4306D1BBF00797B5E /* MantikoraPoC */;
+			targetProxy = BAB870D6306D1BC200797B5E /* PBXContainerItemProxy */;
+		};
+		BAB870E1306D1BC200797B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAB870C4306D1BBF00797B5E /* MantikoraPoC */;
+			targetProxy = BAB870E0306D1BC200797B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAB870E7306D1BC200797B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAB870E8306D1BC200797B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAB870EA306D1BC200797B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MantikoraPoC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mantikora.MantikoraPoC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB870EB306D1BC200797B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MantikoraPoC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mantikora.MantikoraPoC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAB870ED306D1BC200797B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mantikora.MantikoraPoCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MantikoraPoC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MantikoraPoC";
+			};
+			name = Debug;
+		};
+		BAB870EE306D1BC200797B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mantikora.MantikoraPoCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MantikoraPoC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MantikoraPoC";
+			};
+			name = Release;
+		};
+		BAB870F0306D1BC200797B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mantikora.MantikoraPoCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MantikoraPoC;
+			};
+			name = Debug;
+		};
+		BAB870F1306D1BC200797B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mantikora.MantikoraPoCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MantikoraPoC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB870C0306D1BBF00797B5E /* Build configuration list for PBXProject "MantikoraPoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB870E7306D1BC200797B5E /* Debug */,
+				BAB870E8306D1BC200797B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB870E9306D1BC200797B5E /* Build configuration list for PBXNativeTarget "MantikoraPoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB870EA306D1BC200797B5E /* Debug */,
+				BAB870EB306D1BC200797B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB870EC306D1BC200797B5E /* Build configuration list for PBXNativeTarget "MantikoraPoCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB870ED306D1BC200797B5E /* Debug */,
+				BAB870EE306D1BC200797B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB870EF306D1BC200797B5E /* Build configuration list for PBXNativeTarget "MantikoraPoCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB870F0306D1BC200797B5E /* Debug */,
+				BAB870F1306D1BC200797B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAB870BD306D1BBF00797B5E /* Project object */;
+}

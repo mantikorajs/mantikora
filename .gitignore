@@ -23,6 +23,7 @@ local.properties
 *.aab
 
 # iOS / Xcode
+poc/ios/MantikoraPoC/MantikoraPoC/web/
 xcuserdata/
 DerivedData/
 *.xcuserstate

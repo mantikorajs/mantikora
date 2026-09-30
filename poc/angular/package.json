@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:android": "ng build --base-href /assets/web/ && rm -rf ../android/app/src/main/assets/web && cp -R dist/mantikora-poc/browser ../android/app/src/main/assets/web"
+    "build:android": "ng build --base-href /assets/web/ && rm -rf ../android/app/src/main/assets/web && cp -R dist/mantikora-poc/browser ../android/app/src/main/assets/web",
+    "build:ios": "ng build --base-href / && rm -rf ../ios/MantikoraPoC/MantikoraPoC/web && cp -R dist/mantikora-poc/browser ../ios/MantikoraPoC/MantikoraPoC/web"
   },
   "private": true,
   "packageManager": "npm@10.9.8",
