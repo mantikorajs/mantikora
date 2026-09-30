@@ -87,8 +87,10 @@ export class ReferenceMirror {
         const [, parentId, childId, index] = op;
         const parent = this.get(parentId);
         const child = this.get(childId);
+        // Validate before mutating: the index counts siblings after the child is detached.
+        const size = parent.children.length - (child.parent === parent ? 1 : 0);
+        if (index < 0 || index > size) throw new Error(`index ${index} out of range`);
         if (child.parent) this.detach(child);
-        if (index < 0 || index > parent.children.length) throw new Error(`index ${index} out of range`);
         parent.children.splice(index, 0, child);
         child.parent = parent;
         return;

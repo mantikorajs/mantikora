@@ -62,11 +62,13 @@ class WebViewHost(context: Context, private val onBatch: (Batch) -> Unit) {
         webView.loadUrl("https://appassets.androidplatform.net/assets/web/index.html")
     }
 
-    /** Sends a native event to JS. Main thread only. */
-    fun sendEvent(event: String, node: Int, payload: String? = null) {
+    /** Sends a native event to JS and returns its seq. Main thread only. */
+    fun sendEvent(event: String, node: Int, payload: String? = null): Int {
         check(Looper.myLooper() == Looper.getMainLooper()) { "sendEvent must run on the main thread" }
-        val json = Protocol.eventJson(++eventSeq, event, node, payload)
+        val seq = ++eventSeq
+        val json = Protocol.eventJson(seq, event, node, payload)
         webView.evaluateJavascript("__mantikora.receive(${JSONObject.quote(json)})", null)
+        return seq
     }
 
     fun destroy() {

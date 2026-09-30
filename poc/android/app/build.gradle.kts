@@ -40,4 +40,6 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.activity.compose)
     implementation(libs.webkit)
+
+    testImplementation(libs.junit)
 }

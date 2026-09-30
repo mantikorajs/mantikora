@@ -130,8 +130,8 @@ The renderer ignores `ng-version` and `ng-reflect-*`.
 - The native text field keeps its own state (`TextFieldValue` in Compose, `@State` in SwiftUI).
 - Every user edit sends `change` with the full text.
 - **While focused**, an incoming `prop value` is stored as pending and not applied. This prevents cursor jumps and lost characters.
-- **On blur**, a pending value that differs from the local text is applied.
-- **While not focused**, `prop value` is applied immediately.
+- **Not focused**, the latest `prop value` is applied when it differs from the local text, but only after JS has handled every `change` this field sent: `evt` of the last applied batch ≥ `seq` of the field's last `change`. Otherwise a stale value could overwrite the last keystrokes right after blur.
+- Cursor, selection and IME composition never cross the bridge.
 
 ## 9. Example: counter
 
