@@ -1,0 +1,9 @@
+{
+  "name": "mantikora",
+  "version": "0.0.1",
+  "description": "Angular → SwiftUI & Jetpack Compose. In development.",
+  "repository": "github:mantikorajs/mantikora",
+  "keywords": [],
+  "author": "Nemanja Zoric",
+  "license": "Apache-2.0"
+}

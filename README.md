@@ -1,2 +1,3 @@
-# mantikora
-Angular → SwiftUI &amp; Jetpack Compose. In development.
+# Mantikora
+
+Angular → SwiftUI & Jetpack Compose. In development — https://mantikora.dev
