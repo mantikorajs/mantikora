@@ -13,6 +13,8 @@ dist/
 coverage/
 
 # Android
+.kotlin/
+poc/android/app/src/main/assets/web/
 .gradle/
 build/
 .cxx/

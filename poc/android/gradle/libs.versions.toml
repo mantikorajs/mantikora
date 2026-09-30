@@ -1,0 +1,19 @@
+[versions]
+agp = "9.4.0"
+kotlin = "2.4.20"
+composeBom = "2026.09.00"
+activityCompose = "1.13.0"
+webkit = "1.17.1"
+
+[libraries]
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+webkit = { group = "androidx.webkit", name = "webkit", version.ref = "webkit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+# AGP 9 compiles Kotlin itself; only the Compose compiler plugin is applied, at the Kotlin version.
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
